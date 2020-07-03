@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    PATH = "C:\Users\A637979\AppData\Local\Programs\Python\Python38-32;env.PATH"
+    PATH = "C:/Users/637979/AppData/Local/Programs/Python/Python38-32;env.PATH"
   }
   stages {
     stage('build') {
