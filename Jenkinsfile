@@ -13,8 +13,8 @@ pipeline {
       //  bat "echo %PATH%"
         echo env.PATH
    //     echo 'SET PATH=%PATH%;%PYTHON_PATH%'
-        echo env.Path
-        bat 'python first.py'
+        echo %Path%
+    //    bat 'python first.py'
       }
     }
     stage('test') {
