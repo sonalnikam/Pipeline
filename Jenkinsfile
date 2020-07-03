@@ -1,8 +1,8 @@
 pipeline {
   agent any
-  environment {
-    PATH = "C:/Users/637979/AppData/Local/Programs/Python/Python38-32;%PATH%"
-  }
+ // environment {
+//    PATH = "C:/Users/637979/AppData/Local/Programs/Python/Python38-32;%PATH%"
+ // }
   stages {
     stage('build') {
       steps {
