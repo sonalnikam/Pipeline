@@ -4,8 +4,8 @@ pipeline {
     stage('build') {
       steps {
         echo "My first python build"
-    //    sh 'SET PATH=%PATH%;%PYTHON_PATH%'
-        sh 'python --version'
+        bat 'SET PATH=%PATH%;%PYTHON_PATH%'
+        bat 'python --version'
       }
     }
     stage('test') {
