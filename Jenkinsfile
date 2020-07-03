@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
 
-    PATH = "%PATH%;%PYTHON_PATH"
+    set PATH = "%PATH%;%PYTHON_PATH"
   }
   stages {
     stage('build') {
