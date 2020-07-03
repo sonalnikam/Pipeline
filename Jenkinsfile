@@ -1,8 +1,9 @@
 pipeline {
   agent any
- // environment {
-//    PATH = "C:/Users/637979/AppData/Local/Programs/Python/Python38-32;%PATH%"
- // }
+ environment {
+   PATH = "C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\A637979\Desktop\software;C:\Python27;C:\Python27\Lib;C:\Python27\Scripts;C:\Users\A637979\Desktop\software\deepsecurity;C:\Users\A637979\Desktop\software\deepsecurity\api;C:\Users\A637979\Desktop\software\deepsecurity\models;C:\Program Files (x86)\Groovy\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\A637979\Desktop\software;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;
+   C:/Users/637979/AppData/Local/Programs/Python/Python38-32"
+ }
   stages {
     stage('build') {
       steps {
