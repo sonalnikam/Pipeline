@@ -12,7 +12,7 @@ pipeline {
         echo env.PATH
    //     echo 'SET PATH=%PATH%;%PYTHON_PATH%'
    //     echo env.PATH
-        bat 'python hello'
+        bat 'python hello.py'
       }
     }
     stage('test') {
