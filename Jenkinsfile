@@ -14,7 +14,7 @@ pipeline {
         echo env.PATH
    //     echo 'SET PATH=%PATH%;%PYTHON_PATH%'
         echo "%Path%"
-    //    bat 'python first.py'
+        bat 'python first.py'
       }
     }
     stage('test') {
