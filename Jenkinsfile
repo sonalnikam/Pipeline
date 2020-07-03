@@ -3,6 +3,7 @@ pipeline {
   environment {
 
     PATH = "%PATH%;%PYTHON_PATH"
+  }
   stages {
     stage('build') {
       steps {
