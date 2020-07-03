@@ -1,5 +1,5 @@
 import unittest
-from math import factorial
+from scipy.special import factorial
 from factorial import fact
 
 class TestFactorial(unittest.TestCase):
