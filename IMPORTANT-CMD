@@ -6,3 +6,10 @@ pipeline {
     PATH = "C:\\WINDOWS\\SYSTEM32"
 
 }
+
+CHECKOUT-EXAMPLE
+stage('Preparation') { // for display purposes
+     checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'SparseCheckoutPaths', sparseCheckoutPaths: [[path: String.valueOf(folder_path)]]]], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/amrutaspatil/Hello.git']]])
+ 
+}
+} 
