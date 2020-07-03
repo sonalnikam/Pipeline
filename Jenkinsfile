@@ -8,6 +8,7 @@ pipeline {
       steps {
         echo "My first python build"
         echo "path is %PATH%"
+        echo env.PATH
    //     echo 'SET PATH=%PATH%;%PYTHON_PATH%'
    //     echo env.PATH
         bat 'python first'
