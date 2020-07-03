@@ -11,9 +11,9 @@ pipeline {
         echo "My first python build"
      //   echo "path is %PATH%"
       //  bat "echo %PATH%"
-        echo env.PATH
+    //    echo env.PATH
    //     echo 'SET PATH=%PATH%;%PYTHON_PATH%'
-        echo "%Path%"
+   //     echo "%Path%"
         bat 'python first.py'
       }
     }
